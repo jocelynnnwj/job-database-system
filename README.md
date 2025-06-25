@@ -64,8 +64,8 @@ Before running this project, ensure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Jinyangd/DSCI551_Group48_Project.git
-cd DSCI551_Group48_Project
+git clone <your-fork-url>
+cd job-database-system
 ```
 
 ### 2. Install Dependencies
