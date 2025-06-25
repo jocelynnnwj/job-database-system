@@ -64,7 +64,7 @@ Before running this project, ensure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-fork-url>
+git clone https://github.com/jocelynnnwj/job-database-system.git
 cd job-database-system
 ```
 
