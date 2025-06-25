@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Environment
+.env
+*.env
+
+# Media/uploads
+media/
+
+# Database
+*.sqlite3
+jobs
+
+# Migrations
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/*.py~
+**/migrations/__pycache__/
+
+# CSV test data
+example.csv
+
+# Other
+*.bak
+*.swp 
