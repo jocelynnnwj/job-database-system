@@ -1,4 +1,4 @@
-# job-database-system
+# Job Posting Database Management System
 
 **USC DSCI 551 Class Project | Group 48**
 
@@ -270,4 +270,4 @@ For questions or support, please contact the development team or create an issue
 
 ---
 
-**Built with ❤️ for USC DSCI 551 (Group 48)**
+**Built with ❤️💛 for USC DSCI 551 (Group 48)**
