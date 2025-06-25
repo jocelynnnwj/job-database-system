@@ -1,12 +1,8 @@
-# Job Posting Database Management System
+# job-database-system
 
-[![Django](https://img.shields.io/badge/Django-5.0.1-green.svg)](https://www.djangoproject.com/)
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![MySQL](https://img.shields.io/badge/MySQL-8.0+-orange.svg)](https://www.mysql.com/)
+**USC DSCI 551 Class Project | Group 48**
 
-**DSCI551 | Group 48: David Tovmasyan, Jinyang Du, Wenjing Huang**
-
-A comprehensive Django-based Database Management System for job postings that enhances the job search and recruitment process by providing a user-friendly, efficient, and interactive job posting platform with distributed database architecture.
+A Django-based web application for managing and searching job postings, developed as a class project for the University of Southern California's DSCI 551: Foundations of Data Management. This project demonstrates distributed database concepts, robust user authentication, advanced job search/filtering, and bulk data import.
 
 **[Implementation Demo](https://www.youtube.com/watch?v=qOf86i9TUbQ)**
 
@@ -26,10 +22,10 @@ A comprehensive Django-based Database Management System for job postings that en
 
 ## 🎯 Overview
 
-This project implements a distributed job posting management system using Django with MySQL database partitioning. The system features:
+This project was developed as part of the USC DSCI 551 course (Group 48). It implements a distributed job posting management system using Django with MySQL database partitioning. The system features:
 
-- **Distributed Database Architecture**: Uses hash-based partitioning across 3 MySQL databases
-- **Web Scraping**: Automated LinkedIn job data collection using Selenium and BeautifulSoup
+- **Distributed Database Architecture**: Hash-based partitioning across 3 MySQL databases (optional)
+- **Web Scraping**: Automated LinkedIn job data collection using Selenium and BeautifulSoup (optional)
 - **User Authentication**: Complete user registration, login, and profile management
 - **Job Management**: CRUD operations for job postings with advanced search capabilities
 - **Responsive UI**: Modern Bootstrap-based interface with interactive features
@@ -37,8 +33,8 @@ This project implements a distributed job posting management system using Django
 ## ✨ Features
 
 - 🔍 **Advanced Job Search**: Search by title, location, company, and filters
-- 📊 **Database Partitioning**: Hash-based distribution across multiple databases
-- 🤖 **Automated Data Collection**: LinkedIn scraping with Selenium WebDriver
+- 📊 **Database Partitioning**: Hash-based distribution across multiple databases (optional)
+- 🤖 **Automated Data Collection**: LinkedIn scraping with Selenium WebDriver (optional)
 - 👤 **User Management**: Registration, authentication, and profile management
 - 💾 **Data Import/Export**: CSV-based data management with custom commands
 - 📱 **Responsive Design**: Mobile-friendly Bootstrap interface
@@ -49,8 +45,8 @@ This project implements a distributed job posting management system using Django
 
 The system uses a distributed database architecture with:
 
-- **Primary Database**: SQLite for user management and session data
-- **Partitioned Databases**: 3 MySQL databases for job data distribution
+- **Primary Database**: SQLite for user management and session data (default)
+- **Partitioned Databases**: 3 MySQL databases for job data distribution (optional)
 - **Hash Function**: Custom partitioning algorithm based on job location state codes
 - **Django ORM**: Database-agnostic data access layer
 
@@ -59,7 +55,7 @@ The system uses a distributed database architecture with:
 Before running this project, ensure you have:
 
 - Python 3.8 or higher
-- MySQL 8.0 or higher
+- MySQL 8.0 or higher (optional)
 - pip (Python package installer)
 - Git
 
@@ -259,13 +255,14 @@ dsci551_group48/
 
 ## 📄 License
 
-This project is part of the DSCI551 course at USC. All rights reserved.
+This project is part of the DSCI 551 course at USC. All rights reserved.
 
 ## 👥 Team
 
-- **David Tovmasyan** - Backend Development & Database Architecture
-- **Jinyang Du** - Frontend Development & UI/UX Design
-- **Wenjing Huang** - Data Scraping & System Integration
+**Group 48 (USC DSCI 551):**
+- David Tovmasyan — Backend Development & Database Architecture
+- Jinyang Du — Frontend Development & UI/UX Design
+- Wenjing Huang — Data Scraping & System Integration
 
 ## 📞 Support
 
@@ -273,4 +270,4 @@ For questions or support, please contact the development team or create an issue
 
 ---
 
-**Built with ❤️ for DSCI551 Database Systems**
+**Built with ❤️ for USC DSCI 551 (Group 48)**
